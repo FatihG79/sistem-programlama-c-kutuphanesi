@@ -1,4 +1,4 @@
-# Sistem Programlama Ödev-3: Çok Dosyalı C Kütüphanesi ve Makefile
+# Sistem Programlama Çok Dosyalı C Kütüphanesi ve Makefile
 
 ## 1. Projenin Amacı
 Bu ödev kapsamında, Linux ortamında C programlama dilini kullanarak çok dosyalı bir yapı kurmayı hedefledim. Yazdığım kaynak kodlardan dinamik (paylaşılan) bir kütüphane oluşturdum ve projeyi derleme, bağlama, temizleme gibi işlemleri tek bir Makefile üzerinden otomatik hale getirdim[cite: 3].
@@ -19,7 +19,7 @@ Bu ödev kapsamında, Linux ortamında C programlama dilini kullanarak çok dosy
 └── README.md
 
 ## 3. Her Dosyanın Görevi
-* [cite_start]**include/math_lib.h**: Kütüphanemde kullandığım fonksiyonların prototiplerini (imzalarını) tuttuğum başlık dosyası[cite: 13, 27].
+* [cite_start]**include/math_lib.h**: Kütüphanemde kullandığım fonksiyonların prototiplerini tuttuğum başlık dosyası[cite: 13, 27].
 * **src/*.c**: Matematiksel işlemlerin her birini ayrı ayrı yazdığım kaynak kod dosyalarım[cite: 13, 28].
 * **main.c**: Oluşturduğum paylaşılan kütüphaneyi (`libmath.so`) test etmek amacıyla yazdığım ana program[cite: 35].
 * [cite_start]**Makefile**: Kütüphane oluşturma, derleme ve ortamı temizleme adımlarını benim yerime otomatikleştiren yapılandırma dosyam[cite: 33, 45, 46, 47].
