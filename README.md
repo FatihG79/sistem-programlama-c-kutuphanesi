@@ -3,9 +3,11 @@
 ## 1. Projenin Amacı
 Bu ödev kapsamında, Linux ortamında C programlama dilini kullanarak çok dosyalı bir yapı kurmayı hedefledim. Yazdığım kaynak kodlardan dinamik (paylaşılan) bir kütüphane oluşturdum ve projeyi derleme, bağlama, temizleme gibi işlemleri tek bir Makefile üzerinden otomatik hale getirdim[cite: 3].
 
-## 2. Proje Klasör Yapısı
-[cite_start]Projedeki dosyaların birbirine karışmaması ve düzenli olması için kaynak kodları, başlık dosyalarını ve diğer bileşenleri ayrı klasörlerde organize ettim[cite: 15, 22]. Klasör ağacım şu şekilde:
+## 🗂️ 2.Proje Klasör Yapısı
 
+Projedeki dosyaların birbirine karışmaması ve düzenli olması için kaynak kodları, başlık dosyalarını ve diğer bileşenleri ayrı klasörlerde organize ettim. Klasör ağacım şu şekilde:
+
+```text
 .
 ├── include/
 │   └── math_lib.h
